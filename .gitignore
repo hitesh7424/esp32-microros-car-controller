@@ -3,7 +3,12 @@ build/
 install/
 log/
 
-# Python
+# IDE - VS Code
+.vscode/
+!.vscode/c_cpp_properties.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
 __pycache__/
 *.py[cod]
 *$py.class
@@ -39,10 +44,14 @@ coverage.xml
 *.pyc
 *.pyo
 
-# IDE
-.vscode/settings.json
-.vscode/launch.json
-.vscode/tasks.json
+# IDE - VS Code
+.vscode/
+!.vscode/c_cpp_properties.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Python
 .idea/
 *.swp
 *.swo
