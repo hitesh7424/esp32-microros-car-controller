@@ -1,0 +1,7 @@
+
+
+ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
+
+source ./install/setup.bash
+
+ros2 run esp32_car wheel_speed_controller --ros-args -r /ctrl0/cmd_vel:=/ctrl1/cmd_vel  -r /car0/wheel_speeds:=/car1/wheel_speeds

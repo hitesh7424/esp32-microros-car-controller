@@ -5,6 +5,6 @@ int main(int argc, char ** argv)
   (void) argc;
   (void) argv;
 
-  printf("hello world esp32_car package\n");
+  printf("hello world src/esp32_car package\n");
   return 0;
 }

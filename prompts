@@ -1,0 +1,13 @@
+make a script in the esp32_car 
+
+which will host camera topic and 
+and publish the video streamed on the url
+
+http://10.206.232.232:81/stream
+
+and also it will host the control for the built flash light which can be controlled by
+
+http://10.206.232.232/control?var=led_intensity&val=89
+
+
+also do the proper chnages the package xml and cmake so i will get the functional thing

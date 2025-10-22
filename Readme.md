@@ -42,6 +42,7 @@ source install/setup.bash
 ```bash
 ros2 pkg create --build-type ament_cmake --license Apache-2.0 <package_name>
 ros2 pkg create --build-type ament_cmake --license Apache-2.0 --node-name hello esp32_car
+ros2 pkg create --build-type ament_python --license Apache-2.0 --node-name hello esp32_car
 ```
 
 ## Building the Package
